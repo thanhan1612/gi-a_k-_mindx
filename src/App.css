@@ -1,0 +1,26 @@
+div.page_anonime {
+  position: relative;
+  z-index: 10;
+  width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+ 
+  justify-content: center;
+}
+div.page {
+  background-color:#192026;
+}
+div.content {
+  padding:0px 82px
+}
+div.anime_items .release_title {
+  color:white;
+}
+div.list_anime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

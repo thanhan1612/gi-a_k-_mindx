@@ -1,0 +1,8 @@
+div.animeitems h1 {
+    color:white;
+    
+}
+div.animeitems {
+    display:flex;
+    flex-direction: column;
+}

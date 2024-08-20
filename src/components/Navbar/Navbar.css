@@ -1,0 +1,30 @@
+div.navbar {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+}
+div.navbar .input {
+    border-radius:37px;
+    height:48px;
+    width:374,58px;
+    padding:8px 100px 8px 18px;
+    background-color: #374151;
+    color:#868686
+}
+div.navbar .website_name {
+    color:white;
+    font-size:36px
+}
+div.navbar .home {
+    color:#868686;
+    font-size:18px;
+
+}
+div.navbar .list {
+    color:#868686;
+    font-size:18px;
+    
+}

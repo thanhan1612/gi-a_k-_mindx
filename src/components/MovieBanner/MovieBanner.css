@@ -1,0 +1,42 @@
+div.moviebanner {
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #00000030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.moviebanner div.content {
+    width: 50vw;
+    min-height: 50vh;
+    background-color: #192026;
+    padding: 30px 28px;
+    border-radius: 36px;
+}
+div.info p{
+    color:white;
+    font-size:20px;
+    font-family: Sans-serif;
+}
+div.animeitem {
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    align-items: center;
+}
+div.animeitem img {
+    height:300px
+}
+div.info {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+div.close {
+    display: flex;
+    justify-content: flex-end;
+}
